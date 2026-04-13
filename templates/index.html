@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Alarme de Sono</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+    <div class="container">
+        <h1>😴 Alarme de Sono</h1>
+        <p>Monitoramento em tempo real</p>
+
+        <img src="{{ url_for('video') }}" class="video">
+
+        <div class="status">
+            Monitorando em tempo real
+        </div>
+    </div>
+</body>
+</html>
